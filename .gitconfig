@@ -1,0 +1,18 @@
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = Phil Pursglove
+	email = philpursglove@users.noreply.github.com
+[help]
+	autocorrect = 1
+[merge]
+	conflictstyle = diff3
+[alias]
+	logadog = log --all --decorate --oneline --graph
+[http]
+	sslbackend = schannel
+[credential "http://eagdlapp53:8080"]
+	integrated = true
