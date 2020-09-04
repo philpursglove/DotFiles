@@ -12,6 +12,8 @@
 	conflictstyle = diff3
 [alias]
 	logadog = log --all --decorate --oneline --graph
+	pushup = push -u origin
 [http]
 	sslbackend = schannel
-
+[push]
+	default = current
