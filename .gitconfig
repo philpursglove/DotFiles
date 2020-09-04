@@ -14,5 +14,4 @@
 	logadog = log --all --decorate --oneline --graph
 [http]
 	sslbackend = schannel
-[credential "http://eagdlapp53:8080"]
-	integrated = true
+
