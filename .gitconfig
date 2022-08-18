@@ -13,6 +13,7 @@
 [alias]
 	logadog = log --all --decorate --oneline --graph
 	pushup = push -u origin
+	recommit = commit --amend --no-edit
 [http]
 	sslbackend = schannel
 [push]
